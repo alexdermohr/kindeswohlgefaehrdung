@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "Edupool-Board „Prüfung 2027 Sommer FS“",
+  "sourceRoot": {
+    "id": "edupool-board",
+    "label": "Oberquelle",
+    "title": "Edupool-Board „Prüfung 2027 Sommer FS“",
+    "description": "Zentrale Zugangs- und Provenienzquelle; sämtliche hier erschlossenen Prüfungsunterlagen und Fachquellen sind dort enthalten oder verlinkt. Die einzelnen Werke bleiben die fachlichen Originalquellen.",
+    "url": "https://boards.edupool.cloud/s/Id-aVXBZEkn6RYOYY1aaEximB7QgB7SL0YOhxrezpdM"
+  },
+  "libraryGroups": [
+    {
+      "id": "pt1",
+      "title": "PT1 · Informatik, Medien & digitale Bildung"
+    },
+    {
+      "id": "pt2",
+      "title": "PT2 · Kindeswohl, OKJA, Schutz & Prävention"
+    }
+  ],
+  "sources": [
+    {
+      "id": "pt1-basiskompetenzen",
+      "section": "Prüfungsunterlagen",
+      "title": "Basiskompetenzen Prüfung Sommer 2027",
+      "citation": "PT1-Kompetenzbeschreibung des Prüfungsboards.",
+      "publicPdf": null,
+      "statusNote": "Kein belastbarer öffentlicher PDF-Link gefunden.",
+      "boardFiles": [
+        {
+          "name": "Basiskompetenzen Prüfung Sommer 2027.pdf",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "id": "operatorenliste",
+      "section": "Prüfungsunterlagen",
+      "title": "Entwurf Operatorenliste FS nBP",
+      "citation": "Operatorenliste des Prüfungsboards; in PT1 und PT2 verknüpft.",
+      "publicPdf": null,
+      "statusNote": "Kein belastbarer öffentlicher PDF-Link gefunden.",
+      "boardFiles": [
+        {
+          "name": "Entwurf_Operatorenliste_FS_nBP.pdf",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "id": "fruehe-informatische-bildung",
+      "section": "PT1 · Informatik, Medien und digitale Bildung",
+      "libraryGroup": "pt1",
+      "title": "Frühe informatische Bildung",
+      "citation": "Bergner, N.; Hubwieser, P.; Köster, H. (2018): Frühe informatische Bildung – Ziele und Gelingensbedingungen für den Elementar- und Primarbereich. Band 9.",
+      "libraryDescription": "Bergner, Hubwieser & Köster · Stiftung „Haus der kleinen Forscher“",
+      "publicPdf": {
+        "label": "öffentliches PDF",
+        "url": "https://www.pedocs.de/volltexte/2019/17813/pdf/Bergner_et_al2019_Fruehe_informatische_Bildung.pdf"
+      },
+      "boardFiles": [
+        {
+          "name": "1. Bergner_et_al2019_Fruehe_informatische_Bildung.pdf",
+          "pages": "S. 28–29, 39–41, 274–277"
+        }
+      ]
+    },
+    {
+      "id": "bildungsleitlinien",
+      "section": "PT1 · Informatik, Medien und digitale Bildung",
+      "libraryGroup": "pt1",
+      "title": "Perspektive Kind – Hamburger Bildungsleitlinien",
+      "citation": "Freie und Hansestadt Hamburg (2024): Perspektive Kind – Hamburger Bildungsleitlinien für die pädagogische Arbeit in Kitas.",
+      "libraryDescription": "Freie und Hansestadt Hamburg · 2024",
+      "publicPdf": {
+        "label": "offizielles PDF",
+        "url": "https://dokumente.hamburg.de/resource/blob/35920/4d41e681db1c556340d235f366949ba0/bildungsleitlinien-data.pdf"
+      },
+      "boardFiles": [
+        {
+          "name": "2. Bildungsleitlinien.pdf",
+          "pages": "S. 58–61"
+        }
+      ]
+    },
+    {
+      "id": "wiff57-knauf",
+      "section": "PT1 · Informatik, Medien und digitale Bildung",
+      "libraryGroup": "pt1",
+      "title": "Förderung digitaler Kompetenzen",
+      "citation": "Knauf, Helen (2024): Förderung digitaler Kompetenzen von Kindern in Kindertageseinrichtungen. WiFF Expertise, Band 57.",
+      "libraryDescription": "Helen Knauf · WiFF Expertise 57 · 2024",
+      "publicPdf": {
+        "label": "offizielles PDF",
+        "url": "https://www.weiterbildungsinitiative.de/fileadmin/Redaktion/Publikationen/WiFF_Expertise57_Knauf_Web.pdf"
+      },
+      "boardFiles": [
+        {
+          "name": "3. WiFF_Expertise57_Knauf.pdf",
+          "pages": "S. 6–8, 31–35"
+        }
+      ]
+    },
+    {
+      "id": "minikim-2023",
+      "section": "PT1 · Informatik, Medien und digitale Bildung",
+      "libraryGroup": "pt1",
+      "title": "miniKIM-Studie 2023",
+      "citation": "Medienpädagogischer Forschungsverband Südwest (2023): miniKIM-Studie 2023. Kleinkinder und Medien.",
+      "libraryDescription": "Kleinkinder und Medien · mpfs/LFK",
+      "publicPdf": {
+        "label": "offizielles PDF",
+        "url": "https://www.lfk.de/fileadmin/PDFs/Publikationen/Studien/miniKIM-Studie/mini-kim-studie-2023.pdf"
+      },
+      "boardFiles": [
+        {
+          "name": "4. miniKIM2023.pdf",
+          "pages": "S. 10–12, 43–44"
+        }
+      ]
+    },
+    {
+      "id": "informatik-entdecken",
+      "section": "PT1 · Informatik, Medien und digitale Bildung",
+      "title": "Informatik entdecken – Mit und ohne Computer",
+      "citation": "Stiftung „Haus der kleinen Forscher“ (2017): Informatik entdecken – Mit und ohne Computer.",
+      "publicPdf": null,
+      "statusNote": "Der historische Direkt-PDF-Link leitet inzwischen auf die Stiftung/Campus-Materialseite um; daher wird kein funktionierender Direkt-PDF-Link behauptet.",
+      "boardFiles": [
+        {
+          "name": "5. Broschuere_Informatik_2017.pdf",
+          "pages": "S. 10–13, 15, 19–25, 34–39"
+        }
+      ]
+    },
+    {
+      "id": "beebot",
+      "section": "PT1 · Informatik, Medien und digitale Bildung",
+      "libraryGroup": "pt1",
+      "title": "Bee-Bot – Grundlagen & Methoden",
+      "citation": "Wiener Bildungsserver (2019): Bee-Bot – Grundlagen & Methoden für Kindergarten & Volksschule.",
+      "libraryDescription": "Wiener Bildungsserver · 2019",
+      "publicPdf": {
+        "label": "offizielles PDF",
+        "url": "https://lehrerweb.wien/fileadmin/lehrerweb-redakteure/Diverses/Downloads/Booklets/BeeBotBookletDownload.pdf"
+      },
+      "boardFiles": [
+        {
+          "name": "6. BeeBotBooklet.pdf",
+          "pages": "S. 4–10"
+        }
+      ]
+    },
+    {
+      "id": "pt2-basiskompetenzen",
+      "section": "Prüfungsunterlagen",
+      "title": "PT2 Sommer 2027 – Basiskompetenzen",
+      "citation": "PT2-Kompetenzbeschreibung des Prüfungsboards.",
+      "publicPdf": null,
+      "statusNote": "Kein belastbarer öffentlicher PDF-Link gefunden.",
+      "boardFiles": [
+        {
+          "name": "PT2_Sommer 2027_Basiskompetenzen.pdf",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "id": "borg-laufs",
+      "section": "PT2 · Beziehungsgestaltung",
+      "title": "Psychische Grundbedürfnisse bei Jugendlichen",
+      "citation": "Borg-Laufs, Michael (2014): Psychische Grundbedürfnisse bei Jugendlichen. Sozialmagazin 9–10/2014, S. 14–19.",
+      "publicPdf": null,
+      "statusNote": "Der exakte Artikel wurde nicht als belastbarer frei zugänglicher PDF-Volltext gefunden.",
+      "boardFiles": [
+        {
+          "name": "2014 Borg_Laufs Psychische Grundbedürfnisse von Jugendlichen.pdf",
+          "pages": "S. 14–19"
+        }
+      ]
+    },
+    {
+      "id": "simon-beziehungsarbeit",
+      "section": "PT2 · Beziehungsgestaltung",
+      "title": "Beziehungsarbeit – Simon",
+      "citation": "Simon, Titus (2024): Beziehungsarbeit. socialnet Lexikon, 08.04.2024.",
+      "publicPdf": null,
+      "statusNote": "Der Beitrag ist öffentlich als Webartikel auffindbar, aber keine belastbare PDF-Fassung wurde gefunden.",
+      "boardFiles": [
+        {
+          "name": "2024 Simon Beziehungsarbeit_Ausschnitt.pdf",
+          "pages": null
+        }
+      ]
+    },
+    {
+      "id": "schroeder-beziehungsarbeit",
+      "section": "PT2 · Beziehungsgestaltung",
+      "title": "Beziehungsarbeit in der OKJA – Schröder",
+      "citation": "Schröder, Achim (2021): Beziehungsarbeit. In: Handbuch Offene Kinder- und Jugendarbeit, 5. Auflage, Springer VS, S. 1155–1159.",
+      "publicPdf": null,
+      "statusNote": "Kein belastbarer frei zugänglicher PDF-Volltext des exakten Kapitels gefunden.",
+      "boardFiles": [
+        {
+          "name": "Handbuch offene Kinder-und Jugendarbeit_Beziehungsgestaltung.pdf",
+          "pages": "S. 1155–1159"
+        }
+      ]
+    },
+    {
+      "id": "dialogische-haltung",
+      "section": "PT2 · Beziehungsgestaltung",
+      "title": "Dialogische Haltung",
+      "citation": "Bruseberg, Michael; Burkhardt, Mareike; Holland, Stephanie; Rosche, Manuela (2021): Erzieherinnen + Erzieher – Kernbegriffe und Konzepte. Cornelsen, S. 152 f.",
+      "publicPdf": null,
+      "statusNote": "Cornelsen-Auszug; kein belastbarer öffentlicher PDF-Link des exakten Ausschnitts gefunden.",
+      "boardFiles": [
+        {
+          "name": "2021-E+E-Dialogische-Haltung.pdf",
+          "pages": "S. 152 f."
+        }
+      ]
+    },
+    {
+      "id": "aktives-zuhoeren",
+      "section": "PT2 · Beziehungsgestaltung",
+      "title": "Aktives Zuhören",
+      "citation": "Bruseberg, Michael; Burkhardt, Mareike; Holland, Stephanie; Rosche, Manuela (2021): Erzieherinnen + Erzieher – Kernbegriffe und Konzepte. Cornelsen, S. 128 f.",
+      "publicPdf": null,
+      "statusNote": "Cornelsen-Auszug; kein belastbarer öffentlicher PDF-Link des exakten Ausschnitts gefunden.",
+      "boardFiles": [
+        {
+          "name": "2021-E+E-Aktives-Zuhoeren-S128f.pdf",
+          "pages": "S. 128 f."
+        }
+      ]
+    },
+    {
+      "id": "sturzenhecker-konzepte",
+      "section": "PT2 · Konzeptentwicklung, OKJA und Prävention",
+      "title": "Konzeptentwicklung in der Kinder- und Jugendarbeit",
+      "citation": "Sturzenhecker, Benedikt; Deinet, Ulrich (2017): Konzeptentwicklung in der Kinder- und Jugendarbeit. Beltz Juventa, S. 10–19.",
+      "publicPdf": null,
+      "statusNote": "Kein belastbarer frei zugänglicher PDF-Volltext des exakten Buchauszugs gefunden.",
+      "boardFiles": [
+        {
+          "name": "Sturzenhecker_Konzepte.pdf",
+          "pages": "S. 10–19"
+        }
+      ]
+    },
+    {
+      "id": "agjf-okja",
+      "section": "PT2 · Konzeptentwicklung, OKJA und Prävention",
+      "libraryGroup": "pt2",
+      "title": "OKJA – Grundsätze und Leistungen",
+      "citation": "Arbeitsgemeinschaft Jugendfreizeitstätten Baden-Württemberg (2018): Offene Kinder- und Jugendarbeit. Grundsätze und Leistungen.",
+      "libraryDescription": "AGJF Baden-Württemberg · Ausgabe 2018",
+      "publicPdf": {
+        "label": "offizielles PDF",
+        "url": "https://www.agjf.de/images/OKJA/AGJF-zweite-Heimat-web.pdf"
+      },
+      "boardFiles": [
+        {
+          "name": "AGJF_OKJA-Grundsaetze-und-Leistungen_Auszug.pdf",
+          "pages": "S. 4–5, 22–27, 31–32"
+        }
+      ]
+    },
+    {
+      "id": "kvjs-kinderschutz",
+      "section": "PT2 · Konzeptentwicklung, OKJA und Prävention",
+      "libraryGroup": "pt2",
+      "title": "Kinderschutz in der Offenen Kinder- und Jugendarbeit",
+      "citation": "Kommunalverband für Jugend und Soziales Baden-Württemberg (2019): Kinderschutz in der Offenen Kinder- und Jugendarbeit.",
+      "libraryDescription": "KVJS / AGJF · 2019",
+      "publicPdf": {
+        "label": "offizielles PDF",
+        "url": "https://www.agjf.de/images/Service/Publikationen/OKJA-Kinderschutz/KVJS-Ratgeber-Schutzauftrag-2019.pdf"
+      },
+      "boardFiles": [
+        {
+          "name": "KVJS-Ratgeber-Schutzauftrag_bearbeitet OKJA.pdf",
+          "pages": "S. 5–7"
+        }
+      ]
+    },
+    {
+      "id": "pjw-schutzkonzepte",
+      "section": "PT2 · Konzept, Prävention und Kindeswohlgefährdung",
+      "libraryGroup": "pt2",
+      "title": "Arbeitshilfe Schutzkonzepte",
+      "citation": "Paritätisches Jugendwerk NRW (2024): Arbeitshilfe. Schutzkonzepte in der Kinder- und Jugendarbeit.",
+      "libraryDescription": "Paritätisches Jugendwerk NRW · 2024 · Grundlage mehrerer Board-Auszüge",
+      "publicPdf": {
+        "label": "offizielles PDF",
+        "url": "https://www.pjw-nrw.de/fileadmin/EigeneDateien/Download/05-service/PJW_Arbeitshilfe_Schutzkonzepte_2024.pdf"
+      },
+      "boardFiles": [
+        {
+          "id": "concept",
+          "name": "2024 Paritätisches JW NRW Arbeitshilfe Schutzkonzepte.pdf",
+          "pages": "S. 18–19, 24, 37–38"
+        },
+        {
+          "id": "forms",
+          "name": "2024 Paritätisches JW NRW Arbeitshilfe Formen KWG.pdf",
+          "pages": "S. 52–53, 59–62"
+        },
+        {
+          "id": "intervention",
+          "name": "PJW_Arbeitshilfe_Schutzkonzepte_2024.pdf",
+          "pages": "S. 29–34"
+        }
+      ]
+    },
+    {
+      "id": "lvr-wissen-was-wirkt",
+      "section": "PT2 · Konzeptentwicklung, OKJA und Prävention",
+      "title": "Wissen, was wirkt",
+      "citation": "LVR-Landesjugendamt Rheinland (2020): Wissen, was wirkt. Unterstützung und Wirkungen der Offenen Kinder- und Jugendarbeit.",
+      "publicPdf": null,
+      "statusNote": "Der bisherige direkte LVR-PDF-Pfad lieferte beim Live-Check HTTP 404; deshalb wird aktuell kein funktionierender Direkt-PDF-Link behauptet.",
+      "boardFiles": [
+        {
+          "name": "2020-LVR-Rheinland-Wissen-was-wirkt_Auszug.pdf",
+          "pages": "S. 7–8"
+        }
+      ]
+    },
+    {
+      "id": "outlaw-okja",
+      "section": "PT2 · Konzeptentwicklung, OKJA und Prävention",
+      "libraryGroup": "pt2",
+      "title": "Grundkonzept Offene Kinder- und Jugendarbeit",
+      "citation": "Outlaw gemeinnützige Gesellschaft für Kinder- und Jugendhilfe mbH (2022): Grundkonzept Offene Kinder- und Jugendarbeit.",
+      "libraryDescription": "Outlaw gGmbH · 2022",
+      "publicPdf": {
+        "label": "offizielles PDF",
+        "url": "https://www.outlaw-ggmbh.de/fileadmin/standorte/uebergreifende_dateien/2022_09_15_grundkonzept_okja.pdf"
+      },
+      "boardFiles": [
+        {
+          "name": "2022 Grundkonzept OKJA Outlaw gekürzt.pdf",
+          "pages": "S. 5–12"
+        }
+      ]
+    },
+    {
+      "id": "kinderschutz-krisenintervention",
+      "section": "PT2 · Kindeswohlgefährdung und Krisenintervention",
+      "libraryGroup": "pt2",
+      "title": "Gelingender Kinderschutz & Krisenintervention in der OKJA",
+      "citation": "Gelingender Kinderschutz und Krisenintervention in der Offenen Kinder- und Jugendarbeit. Öffentliche Gesamtbroschüre des Landratsamts Breisgau-Hochschwarzwald (2023).",
+      "libraryDescription": "Öffentliche Gesamtbroschüre · Landratsamt Breisgau-Hochschwarzwald · 2023",
+      "publicPdf": {
+        "label": "offizielles PDF",
+        "url": "https://www.breisgau-hochschwarzwald.de/site/Breisgau-Hochschwarzwald-ROOT/get/documents_E-928260536/breisgau-hochschwarzwald/Dateien/Dokumente/Dezernat2/260/Kinderschutz/OKJ/20230713_1.%20Auflage%20Broschuere%20Kinderschutz_OKJ.pdf"
+      },
+      "statusNote": "Der lokale Board-Auszug stimmt textlich mit dieser öffentlichen Gesamtbroschüre überein; die bibliografische Angabe auf dem Board weicht davon ab.",
+      "boardFiles": [
+        {
+          "name": "Kinderschutz-und-krisenintervention-in-der-OKJA_Begriff.pdf",
+          "pages": "S. 6–8"
+        }
+      ]
+    },
+    {
+      "id": "paritaetische-kinder-jugendschutz-2022",
+      "section": "PT2 · Kindeswohlgefährdung und Krisenintervention",
+      "libraryGroup": "pt2",
+      "title": "Kinder- und Jugendschutz in Einrichtungen",
+      "citation": "Der Paritätische Gesamtverband (2022): Kinder- und Jugendschutz in Einrichtungen, 5. Auflage.",
+      "libraryDescription": "Der Paritätische Gesamtverband · 5. Auflage 2022",
+      "publicPdf": {
+        "label": "offizielles PDF",
+        "url": "https://www.der-paritaetische.de/fileadmin/user_upload/kinder-und-jugendschutz-ineinrichtungen_auflage-5_2022.pdf"
+      },
+      "boardFiles": [
+        {
+          "name": "Arbeitshilfe Kinder-und Jugendschutz_Gefährdung des Kindeswohls_Beteiligung als Prävention_2022 Kopie.pdf",
+          "pages": "S. 14"
+        }
+      ]
+    }
+  ],
+  "stepSources": {
+    "1": {
+      "label": "PDFs für diesen Schritt",
+      "items": [
+        {
+          "sourceId": "kinderschutz-krisenintervention",
+          "context": "Grundlage für die spätere Einordnung von Kindeswohl und Gefährdung."
+        }
+      ]
+    },
+    "2": {
+      "label": "Boardquellen für diesen Schritt",
+      "items": [
+        {
+          "sourceId": "borg-laufs",
+          "context": "Psychische Grundbedürfnisse als Beziehungshintergrund."
+        },
+        {
+          "sourceId": "simon-beziehungsarbeit",
+          "context": "Grundlagen professioneller Beziehungsarbeit."
+        },
+        {
+          "sourceId": "schroeder-beziehungsarbeit",
+          "context": "Beziehungsarbeit in der OKJA."
+        },
+        {
+          "sourceId": "dialogische-haltung",
+          "context": "Dialogische Haltung im Gespräch."
+        },
+        {
+          "sourceId": "aktives-zuhoeren",
+          "context": "Aktives Zuhören als beziehungsförderliche Kommunikation."
+        }
+      ]
+    },
+    "3": {
+      "label": "Quellen für diesen Schritt",
+      "items": [
+        {
+          "sourceId": "borg-laufs",
+          "context": "Kernquelle für psychische Grundbedürfnisse Jugendlicher."
+        },
+        {
+          "sourceId": "kinderschutz-krisenintervention",
+          "tag": "Ergänzend",
+          "context": "Ordnet Grundbedürfnisse und Rechte als Orientierung für Kindeswohl ein."
+        }
+      ]
+    },
+    "4": {
+      "label": "PDFs für diesen Schritt",
+      "items": [
+        {
+          "sourceId": "kinderschutz-krisenintervention",
+          "context": "Begriffsbestimmung Kindeswohlgefährdung."
+        },
+        {
+          "sourceId": "pjw-schutzkonzepte",
+          "boardFileIds": [
+            "forms",
+            "intervention"
+          ],
+          "context": "Formen von Kindeswohlgefährdung sowie gewichtige Anhaltspunkte und Intervention."
+        }
+      ]
+    },
+    "5": {
+      "label": "PDFs für diesen Schritt",
+      "items": [
+        {
+          "sourceId": "kvjs-kinderschutz",
+          "context": "Schutzauftrag und Besonderheiten der OKJA."
+        },
+        {
+          "sourceId": "pjw-schutzkonzepte",
+          "boardFileIds": [
+            "intervention"
+          ],
+          "context": "Gewichtige Anhaltspunkte und Intervention."
+        }
+      ]
+    },
+    "6": {
+      "label": "PDFs für diesen Schritt",
+      "items": [
+        {
+          "sourceId": "paritaetische-kinder-jugendschutz-2022",
+          "context": "Beteiligung als Prävention."
+        },
+        {
+          "sourceId": "kinderschutz-krisenintervention",
+          "tag": "Ergänzend",
+          "context": "Beteiligung, Rechte und Schutzlogik im Hilfeprozess."
+        }
+      ]
+    },
+    "7": {
+      "label": "Quellen für diesen Schritt",
+      "items": [
+        {
+          "sourceId": "sturzenhecker-konzepte",
+          "context": "Kernquelle zur Konzeptentwicklung."
+        },
+        {
+          "sourceId": "agjf-okja",
+          "context": "Potenziale, Ziele, Angebote und Leistungen."
+        },
+        {
+          "sourceId": "pjw-schutzkonzepte",
+          "boardFileIds": [
+            "concept"
+          ],
+          "context": "Prävention und Leitlinien zur Konzeptentwicklung."
+        },
+        {
+          "sourceId": "outlaw-okja",
+          "context": "Beispiel für eine konzeptionelle Ausgestaltung."
+        }
+      ]
+    },
+    "8": {
+      "label": "Kernquellen für den Gesamttransfer",
+      "items": [
+        {
+          "sourceId": "pt2-basiskompetenzen",
+          "includePages": false,
+          "context": "Prüfungsrahmen; lokal vorhanden, aber nicht als belastbarer öffentlicher PDF-Link verfügbar."
+        },
+        {
+          "sourceId": "pjw-schutzkonzepte",
+          "includePages": false,
+          "context": "Kernquelle für Gefährdung, Intervention, Prävention und Konzept."
+        },
+        {
+          "sourceId": "kvjs-kinderschutz",
+          "includePages": false,
+          "context": "Kernquelle für Schutzauftrag und OKJA-spezifisches Vorgehen."
+        },
+        {
+          "sourceId": "agjf-okja",
+          "includePages": false,
+          "context": "Kernquelle für den konzeptionellen und institutionellen Transfer."
+        }
+      ]
+    }
+  }
+}
