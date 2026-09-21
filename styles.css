@@ -661,6 +661,148 @@ a { color: var(--navy); }
   box-shadow: var(--shadow);
 }
 
+.inline-pdf {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 11px;
+  border: 1px solid #b9d6d1;
+  border-radius: 9px;
+  background: var(--teal-soft);
+  color: #105f58;
+  font-weight: 760;
+  text-decoration: none;
+}
+
+.inline-pdf:hover {
+  border-color: var(--teal);
+}
+
+.pdf-library {
+  max-width: var(--max);
+  margin: 0 auto 72px;
+  padding: 42px 24px 0;
+  border-top: 1px solid var(--line);
+}
+
+.pdf-library-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 28px;
+  margin-bottom: 34px;
+}
+
+.pdf-library-head h2 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.8rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.pdf-library-head p:not(.eyebrow) {
+  max-width: 780px;
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.pdf-group-title {
+  margin: 34px 0 14px;
+  font-size: 1.15rem;
+  color: var(--navy);
+}
+
+.pdf-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.pdf-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+  padding: 19px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+}
+
+.pdf-card h4 {
+  margin: 13px 0 7px;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.pdf-card p {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.pdf-status {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: var(--teal-soft);
+  color: var(--teal);
+  font-size: 0.7rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pdf-status.unavailable {
+  background: var(--amber-soft);
+  color: #89500f;
+}
+
+.pdf-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  margin-top: auto;
+  padding: 9px 13px;
+  border-radius: 999px;
+  background: var(--navy);
+  color: white;
+  text-decoration: none;
+  font-weight: 780;
+}
+
+.pdf-button:hover {
+  background: var(--navy-dark);
+}
+
+.pdf-unavailable {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  margin-top: 28px;
+  padding: 22px;
+  border: 1px solid #e1cba8;
+  border-radius: var(--radius-sm);
+  background: #fff9ef;
+}
+
+.pdf-unavailable h3 {
+  margin: 10px 0 6px;
+}
+
+.pdf-unavailable p {
+  max-width: 850px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.pdf-footer-actions {
+  margin-top: 26px;
+}
+
 @media (max-width: 940px) {
   .hero { grid-template-columns: 1fr; }
   .case-card { transform: none; }
@@ -679,6 +821,9 @@ a { color: var(--navy); }
   }
   .step-list button span { font-size: 0.68rem; }
   .three-columns { grid-template-columns: 1fr; }
+  .pdf-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pdf-library-head,
+  .pdf-unavailable { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 700px) {
@@ -715,6 +860,9 @@ a { color: var(--navy); }
   }
   .phase-badge { align-self: flex-start; }
   .sources-section { display: grid; }
+  .pdf-library { padding: 34px 16px 0; }
+  .pdf-grid { grid-template-columns: 1fr; }
+  .pdf-card { min-height: 0; }
 }
 
 @media print {
