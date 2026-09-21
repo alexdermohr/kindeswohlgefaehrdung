@@ -30,7 +30,7 @@ Erfasst am 21.09.2026 aus dem bereitgestellten Edupool-Board.
 
 ## Öffentliche Grenze
 
-Das Board enthält Auszüge verschiedener Urheber und Herausgeber. Der vom Nutzer zur Veröffentlichung bestimmte Board-Link wird als Oberquelle öffentlich genannt. Das begründet keine Erlaubnis zur Weiterveröffentlichung der dort enthaltenen oder verlinkten Fremdmaterialien. Öffentlich versioniert werden daher ansonsten nur eigene Strukturierungen, bibliografische Angaben, Seitenbereiche, technische Prüfsummen, die Unterrichtswebseite und die Erfassungsskripte. PDFs und Volltranskripte bleiben lokal.
+Das Board enthält Auszüge verschiedener Urheber und Herausgeber. Der vom Nutzer zur Veröffentlichung bestimmte Board-Link wird als Oberquelle öffentlich genannt. Das begründet keine Erlaubnis zur Weiterveröffentlichung der dort enthaltenen oder verlinkten Fremdmaterialien. Öffentlich versioniert werden daher ansonsten nur eigene Strukturierungen, bibliografische Angaben, Seitenbereiche, technische Prüfsummen, die Prüfungsübungs-Webseite und die Erfassungsskripte. PDFs und Volltranskripte bleiben lokal.
 
 Siehe [RECHTE.md](RECHTE.md).
 

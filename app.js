@@ -375,7 +375,7 @@
 
   document.querySelector("#summary-button")?.addEventListener("click", () => {
     const done = Object.values(state.completed).filter(Boolean).length;
-    completionText.textContent = `${done} von ${totalSteps} Schritten sind als bearbeitet markiert. Die Zusammenfassung übernimmt nur eure lokal gespeicherten Notizen und bleibt auf diesem Gerät, bis ihr sie selbst kopiert.`;
+    completionText.textContent = `${done} von ${totalSteps} Schritten sind als bearbeitet markiert. Die Zusammenfassung übernimmt nur die lokal gespeicherten Notizen und bleibt auf diesem Gerät, bis sie kopiert wird.`;
     steps.forEach((step) => { step.hidden = true; });
     completionPanel.hidden = false;
     document.querySelector("#lernstrecke")?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -405,7 +405,7 @@
       await navigator.clipboard.writeText(text);
       showToast("Arbeitsstand kopiert.");
     } catch {
-      showToast("Kopieren war nicht möglich. Nutzt die Druckfunktion als Alternative.");
+      showToast("Kopieren war nicht möglich. Die Druckfunktion kann als Alternative genutzt werden.");
     }
   });
 
