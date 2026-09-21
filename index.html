@@ -1,0 +1,754 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interaktive Lernstrecke zur Prüfungsvorbereitung: Kindeswohlgefährdung, Beziehungsgestaltung, § 8a SGB VIII und Konzeptentwicklung in der OKJA.">
+  <title>Fallwerkstatt Kindeswohlgefährdung</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#lernstrecke">Direkt zur Lernstrecke</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#start" aria-label="Fallwerkstatt Startseite">
+        <span class="brand-kicker">Prüfung 2027 · FS</span>
+        <span class="brand-title">Fallwerkstatt Kindeswohlgefährdung</span>
+      </a>
+      <div class="header-actions">
+        <button class="button ghost" id="print-button" type="button">Drucken</button>
+        <button class="button ghost danger" id="reset-button" type="button">Fortschritt löschen</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="hero-copy">
+        <p class="eyebrow">Gemeinsam vom Fall zur fachlichen Handlung</p>
+        <h1>Nicht Stoff abhaken. Einen Fall Schritt für Schritt lösen.</h1>
+        <p class="lead">
+          Diese Lernstrecke verbindet Beziehungsgestaltung, psychische Grundbedürfnisse,
+          Gefährdungseinschätzung, § 8a SGB VIII, Hilfen, Beteiligung und Schutzkonzept.
+          Ihr arbeitet als Klasse immer am selben Fall und baut eure Lösung schrittweise auf.
+        </p>
+        <div class="hero-actions">
+          <button class="button primary" type="button" data-goto="1">Fall starten</button>
+          <a class="button secondary" href="#ablauf">Ablauf ansehen</a>
+        </div>
+        <p class="privacy-note">
+          Die Seite speichert Fortschritt und Notizen nur in diesem Browser. Keine echten Namen,
+          realen Falldaten oder personenbezogenen Informationen eintragen.
+        </p>
+      </div>
+
+      <aside class="case-card" aria-labelledby="falltitel">
+        <div class="case-card-head">
+          <span class="case-label">Didaktischer Fall · fiktiv</span>
+          <span class="case-time">ca. 90–120 Min.</span>
+        </div>
+        <h2 id="falltitel">Mika, 15, im Haus der Jugend</h2>
+        <p>
+          Mika kommt seit etwa einem halben Jahr regelmäßig in ein Haus der Jugend. In den letzten
+          Wochen zieht er sich häufiger zurück, reagiert auf kleine Konflikte schnell gereizt und
+          bleibt manchmal bis kurz vor Schließung.
+        </p>
+        <p>
+          Nach einem Streit mit einem anderen Jugendlichen spricht eine Fachkraft ruhig mit ihm.
+          Dabei fällt ihr ein Bluterguss am Oberarm auf. Mika sagt, der Partner seiner Mutter habe
+          ihn vor zwei Tagen „richtig fest gepackt“. Zu Hause werde viel geschrien. Manchmal schlafe
+          er bei Freunden, wenn es ihm zu viel werde. Er bittet: „Sag das bitte nicht meiner Mutter.
+          Dann wird alles nur schlimmer.“
+        </p>
+        <p>
+          Mika erzählt außerdem, dass seine siebenjährige Schwester die Auseinandersetzungen häufig
+          mitbekommt. Im Team gehen die Einschätzungen auseinander: Eine Person hält die Situation
+          für ernst, eine andere für einen typischen Familienkonflikt. Ein Schutzablauf existiert,
+          ist aber nicht allen Mitarbeitern präsent.
+        </p>
+      </aside>
+    </section>
+
+    <section class="classroom-strip" id="ablauf" aria-label="Arbeitsweise">
+      <div>
+        <strong>Arbeitsmodus</strong>
+        <span>erst allein denken · dann Kleingruppe · anschließend Klassenabgleich</span>
+      </div>
+      <div>
+        <strong>Regel</strong>
+        <span>Beobachtung, Deutung und Entscheidung sauber trennen</span>
+      </div>
+      <div>
+        <strong>Ziel</strong>
+        <span>am Ende eine begründete vollständige Handlung formulieren</span>
+      </div>
+    </section>
+
+    <section class="workspace" id="lernstrecke">
+      <aside class="step-nav" aria-label="Lernschritte">
+        <div class="progress-card">
+          <div class="progress-copy">
+            <span>Fortschritt</span>
+            <strong id="progress-label">0 von 8</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+        </div>
+
+        <nav>
+          <ol class="step-list" id="step-list">
+            <li><button type="button" data-goto="1"><span>01</span> Situation sortieren</button></li>
+            <li><button type="button" data-goto="2"><span>02</span> Beziehung gestalten</button></li>
+            <li><button type="button" data-goto="3"><span>03</span> Bedürfnisse & Ressourcen</button></li>
+            <li><button type="button" data-goto="4"><span>04</span> Gefährdung einschätzen</button></li>
+            <li><button type="button" data-goto="5"><span>05</span> § 8a-Verfahren</button></li>
+            <li><button type="button" data-goto="6"><span>06</span> Hilfen & Beteiligung</button></li>
+            <li><button type="button" data-goto="7"><span>07</span> Konzept & Prävention</button></li>
+            <li><button type="button" data-goto="8"><span>08</span> Prüfungstransfer</button></li>
+          </ol>
+        </nav>
+      </aside>
+
+      <div class="steps">
+        <article class="step active" data-step="1" id="schritt-1">
+          <header class="step-header">
+            <div>
+              <p class="step-kicker">Schritt 1 · Wahrnehmen</p>
+              <h2>Was wissen wir wirklich?</h2>
+            </div>
+            <span class="phase-badge">Lagebild</span>
+          </header>
+
+          <div class="task-grid">
+            <section class="task-card">
+              <h3>Auftrag A — Fakten sichern</h3>
+              <p>Schreibt nur Beobachtbares oder ausdrücklich Gesagtes auf. Keine Diagnose, keine Absicht unterstellen.</p>
+              <ul class="prompt-list">
+                <li>Welche konkreten Veränderungen werden beschrieben?</li>
+                <li>Welche Aussage macht Mika selbst?</li>
+                <li>Welche Informationen betreffen die Schwester?</li>
+                <li>Was wissen wir noch nicht?</li>
+              </ul>
+            </section>
+            <section class="task-card accent">
+              <h3>Auftrag B — Deutungen markieren</h3>
+              <p>Formuliert mindestens drei denkbare Erklärungen, ohne eine vorschnell zur Wahrheit zu erklären.</p>
+              <p class="micro-example"><strong>Beispiel:</strong> „Mika bleibt lange“ ist Beobachtung. „Er will nicht nach Hause“ ist zunächst eine Hypothese.</p>
+            </section>
+          </div>
+
+          <section class="step-sources" aria-label="PDF-Quellen für Schritt 1">
+            <div class="step-sources-head">
+              <span>PDFs für diesen Schritt</span>
+              <a href="#pdf-quellen">Alle PDFs</a>
+            </div>
+            <div class="step-source-list">
+              <a class="step-source-pdf" href="https://www.breisgau-hochschwarzwald.de/site/Breisgau-Hochschwarzwald-ROOT/get/documents_E-928260536/breisgau-hochschwarzwald/Dateien/Dokumente/Dezernat2/260/Kinderschutz/OKJ/20230713_1.%20Auflage%20Broschuere%20Kinderschutz_OKJ.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>Gelingender Kinderschutz & Krisenintervention in der OKJA</strong><small>Grundlage für die spätere Einordnung von Kindeswohl und Gefährdung · im Board besonders S. 6–8</small></span>
+              </a>
+            </div>
+          </section>
+
+          <label class="notes-label" for="notes-1">Unsere Arbeitsnotizen</label>
+          <textarea class="notes" id="notes-1" data-note="1" rows="7" placeholder="Fakten · offene Fragen · Hypothesen"></textarea>
+
+          <details class="hint">
+            <summary>Fachlicher Kontrollpunkt</summary>
+            <div>
+              <p>Gute Fallarbeit beginnt mit einer Trennung von <strong>Beobachtung</strong>, <strong>Deutung</strong> und <strong>Bewertung</strong>. Das verhindert, dass ein erster Eindruck den gesamten weiteren Prozess bestimmt.</p>
+            </div>
+          </details>
+
+          <footer class="step-footer">
+            <label class="done-toggle"><input type="checkbox" data-complete="1"> Schritt als bearbeitet markieren</label>
+            <button class="button primary" type="button" data-next="2">Weiter zu Beziehung</button>
+          </footer>
+        </article>
+
+        <article class="step" data-step="2" id="schritt-2" hidden>
+          <header class="step-header">
+            <div>
+              <p class="step-kicker">Schritt 2 · Beziehung</p>
+              <h2>Wie bleibt das Gespräch offen und tragfähig?</h2>
+            </div>
+            <span class="phase-badge">Kommunikation</span>
+          </header>
+
+          <div class="task-grid">
+            <section class="task-card">
+              <h3>Auftrag A — Gesprächseinstieg</h3>
+              <p>Formuliert zwei Sätze, mit denen die Fachkraft anknüpfen könnte, ohne Mika zu verhören oder vorschnell etwas zu versprechen.</p>
+              <ul class="prompt-list">
+                <li>dialogische Haltung</li>
+                <li>aktives Zuhören</li>
+                <li>Transparenz über die eigene Rolle</li>
+                <li>keine Zusage absoluter Geheimhaltung</li>
+              </ul>
+            </section>
+            <section class="task-card">
+              <h3>Auftrag B — Reaktionen prüfen</h3>
+              <div class="choice-list" data-choice-group="conversation">
+                <button type="button" class="choice" data-feedback="good">„Ich höre, dass du Sorge hast, was nach dem Gespräch passiert. Erzähl mir, was dir gerade am wichtigsten ist.“</button>
+                <button type="button" class="choice" data-feedback="weak">„Du musst mir jetzt genau sagen, ob dein Stiefvater dich schlägt.“</button>
+                <button type="button" class="choice" data-feedback="mixed">„Ich behalte alles für mich, egal was du mir erzählst.“</button>
+              </div>
+              <p class="choice-feedback" aria-live="polite"></p>
+            </section>
+          </div>
+
+          <section class="step-sources" aria-label="PDF-Quellen für Schritt 2">
+            <div class="step-sources-head">
+              <span>PDFs für diesen Schritt</span>
+              <a href="#pdf-quellen">Alle PDFs</a>
+            </div>
+            <div class="step-source-list">
+              <div class="step-source-note">
+                <span class="source-tag muted">Hinweis</span>
+                <span><strong>Die exakten Beziehungsquellen sind nicht als belastbarer öffentlicher PDF-Volltext verfügbar.</strong><small>Borg-Laufs, Schröder sowie die Cornelsen-Auszüge bleiben deshalb ohne Ersatz-PDF. Der Quellenstatus dokumentiert das ausdrücklich.</small></span>
+                <a href="https://github.com/alexdermohr/kindeswohlgefaehrdung/blob/gh-pages/quellen/pdf-quellen.md" target="_blank" rel="noreferrer">Status ansehen ↗</a>
+              </div>
+            </div>
+          </section>
+
+          <label class="notes-label" for="notes-2">Unser Gesprächsvorschlag</label>
+          <textarea class="notes" id="notes-2" data-note="2" rows="7" placeholder="Einstieg · Fragen · Transparenz · Grenzen der Vertraulichkeit"></textarea>
+
+          <details class="hint">
+            <summary>Fachlicher Kontrollpunkt</summary>
+            <div>
+              <p>Beziehungsarbeit ist hier kein Gegensatz zum Schutzauftrag. Sie ist ein Mittel, um Informationen, Beteiligung und Hilfen überhaupt möglich zu machen. Gleichzeitig darf Beziehung nicht dazu führen, notwendige Schutzschritte zu vermeiden.</p>
+            </div>
+          </details>
+
+          <footer class="step-footer">
+            <label class="done-toggle"><input type="checkbox" data-complete="2"> Schritt als bearbeitet markieren</label>
+            <button class="button primary" type="button" data-next="3">Weiter zu Bedürfnissen</button>
+          </footer>
+        </article>
+
+        <article class="step" data-step="3" id="schritt-3" hidden>
+          <header class="step-header">
+            <div>
+              <p class="step-kicker">Schritt 3 · Verstehen</p>
+              <h2>Welche Bedürfnisse, Belastungen und Ressourcen sind sichtbar?</h2>
+            </div>
+            <span class="phase-badge">Grundbedürfnisse</span>
+          </header>
+
+          <div class="three-columns">
+            <section class="task-card">
+              <h3>Bedürfnisse</h3>
+              <p>Welche psychischen Grundbedürfnisse könnten berührt sein? Begründet am Fall statt nur Begriffe aufzuzählen.</p>
+            </section>
+            <section class="task-card">
+              <h3>Belastungen</h3>
+              <p>Welche Faktoren könnten Mikas Sicherheit, Entwicklung oder Handlungsfähigkeit beeinträchtigen?</p>
+            </section>
+            <section class="task-card">
+              <h3>Ressourcen</h3>
+              <p>Welche Schutzfaktoren sind schon vorhanden? Wer oder was könnte zusätzlich stabilisieren?</p>
+            </section>
+          </div>
+
+          <section class="step-sources" aria-label="PDF-Quellen für Schritt 3">
+            <div class="step-sources-head">
+              <span>PDFs für diesen Schritt</span>
+              <a href="#pdf-quellen">Alle PDFs</a>
+            </div>
+            <div class="step-source-list">
+              <div class="step-source-note">
+                <span class="source-tag muted">Boardquelle</span>
+                <span><strong>Borg-Laufs: Psychische Grundbedürfnisse bei Jugendlichen</strong><small>Der exakte Artikel ist nicht als belastbarer öffentlicher PDF-Volltext verlinkbar.</small></span>
+              </div>
+              <a class="step-source-pdf" href="https://www.breisgau-hochschwarzwald.de/site/Breisgau-Hochschwarzwald-ROOT/get/documents_E-928260536/breisgau-hochschwarzwald/Dateien/Dokumente/Dezernat2/260/Kinderschutz/OKJ/20230713_1.%20Auflage%20Broschuere%20Kinderschutz_OKJ.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>Ergänzend: Gelingender Kinderschutz & Krisenintervention</strong><small>Ordnet Grundbedürfnisse und Rechte als Orientierung für Kindeswohl ein.</small></span>
+              </a>
+            </div>
+          </section>
+
+          <label class="notes-label" for="notes-3">Bedürfnis–Belastungs–Ressourcen-Matrix</label>
+          <textarea class="notes" id="notes-3" data-note="3" rows="8" placeholder="Bedürfnis → Beobachtung im Fall → mögliche Ressource"></textarea>
+
+          <details class="hint">
+            <summary>Quellenbezug</summary>
+            <div>
+              <p>Im Board ist hierfür insbesondere der Text zu psychischen Grundbedürfnissen Jugendlicher vorgesehen. Für den exakten Borg-Laufs-Artikel wurde kein belastbarer frei zugänglicher PDF-Volltext gefunden; deshalb wird kein Ersatztext als vermeintliches Original verlinkt.</p>
+              <div class="source-links">
+                <a href="#pdf-quellen">Alle öffentlich verfügbaren Quellen-PDFs anzeigen</a>
+                <a href="https://github.com/alexdermohr/kindeswohlgefaehrdung/blob/gh-pages/quellen/pdf-quellen.md" target="_blank" rel="noreferrer">PDF-Quellenstatus im Repository</a>
+              </div>
+            </div>
+          </details>
+
+          <footer class="step-footer">
+            <label class="done-toggle"><input type="checkbox" data-complete="3"> Schritt als bearbeitet markieren</label>
+            <button class="button primary" type="button" data-next="4">Weiter zur Einschätzung</button>
+          </footer>
+        </article>
+
+        <article class="step" data-step="4" id="schritt-4" hidden>
+          <header class="step-header">
+            <div>
+              <p class="step-kicker">Schritt 4 · Bewerten</p>
+              <h2>Welche Anhaltspunkte sind gewichtig — und was bleibt offen?</h2>
+            </div>
+            <span class="phase-badge">Gefährdungseinschätzung</span>
+          </header>
+
+          <div class="callout warning">
+            <strong>Arbeitsregel:</strong> Ihr stellt keine Ferndiagnose und entscheidet nicht allein aus einem Einzelhinweis. Sammelt Anhaltspunkte, Gegenhinweise, Schutzfaktoren und fehlende Informationen.
+          </div>
+
+          <div class="task-grid">
+            <section class="task-card">
+              <h3>Pro Gefährdungsannahme</h3>
+              <p>Welche Beobachtungen sprechen dafür, dass eine ernsthafte Gefährdung geprüft werden muss?</p>
+            </section>
+            <section class="task-card">
+              <h3>Gegen voreilige Festlegung</h3>
+              <p>Welche Informationen fehlen? Welche alternativen Erklärungen sind möglich? Was darf trotzdem nicht bagatellisiert werden?</p>
+            </section>
+          </div>
+
+          <section class="step-sources" aria-label="PDF-Quellen für Schritt 4">
+            <div class="step-sources-head">
+              <span>PDFs für diesen Schritt</span>
+              <a href="#pdf-quellen">Alle PDFs</a>
+            </div>
+            <div class="step-source-list">
+              <a class="step-source-pdf" href="https://www.breisgau-hochschwarzwald.de/site/Breisgau-Hochschwarzwald-ROOT/get/documents_E-928260536/breisgau-hochschwarzwald/Dateien/Dokumente/Dezernat2/260/Kinderschutz/OKJ/20230713_1.%20Auflage%20Broschuere%20Kinderschutz_OKJ.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>Gelingender Kinderschutz & Krisenintervention</strong><small>Begriffsbestimmung Kindeswohlgefährdung · Board-Auszug S. 6–8</small></span>
+              </a>
+              <a class="step-source-pdf" href="https://www.pjw-nrw.de/fileadmin/EigeneDateien/Download/05-service/PJW_Arbeitshilfe_Schutzkonzepte_2024.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>PJW: Arbeitshilfe Schutzkonzepte 2024</strong><small>Formen von Kindeswohlgefährdung S. 52–53, 59–62 · gewichtige Anhaltspunkte/Intervention S. 29–34</small></span>
+              </a>
+            </div>
+          </section>
+
+          <label class="notes-label" for="notes-4">Vorläufige fachliche Einschätzung</label>
+          <textarea class="notes" id="notes-4" data-note="4" rows="8" placeholder="Anhaltspunkte · Schutzfaktoren · Unsicherheiten · nächster Informationsbedarf"></textarea>
+
+          <details class="hint">
+            <summary>Prüfungsformulierung & PDF-Quellen</summary>
+            <div>
+              <p>Statt „Es liegt sicher Kindeswohlgefährdung vor“ ist im Fallstadium oft präziser: „Es liegen mehrere Hinweise vor, die eine strukturierte Gefährdungseinschätzung nach dem Schutzverfahren erforderlich machen.“</p>
+              <div class="source-links">
+                <a class="inline-pdf" href="https://www.breisgau-hochschwarzwald.de/site/Breisgau-Hochschwarzwald-ROOT/get/documents_E-928260536/breisgau-hochschwarzwald/Dateien/Dokumente/Dezernat2/260/Kinderschutz/OKJ/20230713_1.%20Auflage%20Broschuere%20Kinderschutz_OKJ.pdf" target="_blank" rel="noreferrer">PDF · Gelingender Kinderschutz & Krisenintervention ↗</a>
+                <a class="inline-pdf" href="https://www.pjw-nrw.de/fileadmin/EigeneDateien/Download/05-service/PJW_Arbeitshilfe_Schutzkonzepte_2024.pdf" target="_blank" rel="noreferrer">PDF · PJW Arbeitshilfe Schutzkonzepte 2024 ↗</a>
+              </div>
+            </div>
+          </details>
+
+          <footer class="step-footer">
+            <label class="done-toggle"><input type="checkbox" data-complete="4"> Schritt als bearbeitet markieren</label>
+            <button class="button primary" type="button" data-next="5">Weiter zum Verfahren</button>
+          </footer>
+        </article>
+
+        <article class="step" data-step="5" id="schritt-5" hidden>
+          <header class="step-header">
+            <div>
+              <p class="step-kicker">Schritt 5 · Planen</p>
+              <h2>Was verlangt der Schutzauftrag — und wer macht was?</h2>
+            </div>
+            <span class="phase-badge">§ 8a SGB VIII</span>
+          </header>
+
+          <div class="law-sequence" aria-label="Vereinfachte Verfahrenslogik">
+            <div><span>1</span><p><strong>Hinweise ernst nehmen und dokumentieren.</strong><br>Beobachtung und Aussage möglichst konkret festhalten.</p></div>
+            <div><span>2</span><p><strong>Gefährdung fachlich einschätzen.</strong><br>Im Trägerverfahren mehrere Perspektiven einbeziehen.</p></div>
+            <div><span>3</span><p><strong>Insoweit erfahrene Fachkraft hinzuziehen.</strong><br>§ 8a Abs. 4 sieht dies für entsprechende Trägervereinbarungen vor; § 8b gibt beruflich mit Kindern und Jugendlichen Tätigen einen Beratungsanspruch.</p></div>
+            <div><span>4</span><p><strong>Mika und grundsätzlich die Erziehungsberechtigten beteiligen.</strong><br>Nur soweit dadurch der wirksame Schutz nicht in Frage gestellt wird.</p></div>
+            <div><span>5</span><p><strong>Auf geeignete Hilfen hinwirken.</strong><br>Schutz und Unterstützung gemeinsam denken.</p></div>
+            <div><span>6</span><p><strong>Jugendamt informieren, wenn die Gefährdung anders nicht abgewendet werden kann.</strong><br>Bei akuter Gefahr gilt das lokale Notfall- und Schutzverfahren; nicht auf eine Unterrichtscheckliste vertrauen.</p></div>
+          </div>
+
+          <div class="callout info">
+            <strong>Wichtig:</strong> Für die Praxis ist die konkrete § 8a-Vereinbarung und Verfahrensanweisung des eigenen Trägers maßgeblich. Diese Lernstrecke ersetzt kein reales Schutzverfahren.
+          </div>
+
+          <section class="step-sources" aria-label="PDF-Quellen für Schritt 5">
+            <div class="step-sources-head">
+              <span>PDFs für diesen Schritt</span>
+              <a href="#pdf-quellen">Alle PDFs</a>
+            </div>
+            <div class="step-source-list">
+              <a class="step-source-pdf" href="https://www.agjf.de/images/Service/Publikationen/OKJA-Kinderschutz/KVJS-Ratgeber-Schutzauftrag-2019.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>KVJS: Kinderschutz in der Offenen Kinder- und Jugendarbeit</strong><small>Schutzauftrag und Besonderheiten der OKJA · Board-Auszug S. 5–7</small></span>
+              </a>
+              <a class="step-source-pdf" href="https://www.pjw-nrw.de/fileadmin/EigeneDateien/Download/05-service/PJW_Arbeitshilfe_Schutzkonzepte_2024.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>PJW: Arbeitshilfe Schutzkonzepte 2024</strong><small>Gewichtige Anhaltspunkte und Intervention · im Board S. 29–34</small></span>
+              </a>
+            </div>
+          </section>
+
+          <label class="notes-label" for="notes-5">Unser Ablauf im Fall Mika</label>
+          <textarea class="notes" id="notes-5" data-note="5" rows="8" placeholder="Wer? · Was? · Wann? · Womit begründet? · Was dokumentieren?"></textarea>
+
+          <details class="hint">
+            <summary>Amtliche Rechtsgrundlagen & PDF-Quellen</summary>
+            <div class="source-links">
+              <a href="https://www.gesetze-im-internet.de/sgb_8/__8a.html" target="_blank" rel="noreferrer">§ 8a SGB VIII – Schutzauftrag bei Kindeswohlgefährdung</a>
+              <a href="https://www.gesetze-im-internet.de/sgb_8/__8b.html" target="_blank" rel="noreferrer">§ 8b SGB VIII – Fachliche Beratung und Begleitung</a>
+              <a href="https://www.gesetze-im-internet.de/sgb_8/__8.html" target="_blank" rel="noreferrer">§ 8 SGB VIII – Beteiligung von Kindern und Jugendlichen</a>
+              <a class="inline-pdf" href="https://www.agjf.de/images/Service/Publikationen/OKJA-Kinderschutz/KVJS-Ratgeber-Schutzauftrag-2019.pdf" target="_blank" rel="noreferrer">PDF · Kinderschutz in der Offenen Kinder- und Jugendarbeit ↗</a>
+              <a class="inline-pdf" href="https://www.pjw-nrw.de/fileadmin/EigeneDateien/Download/05-service/PJW_Arbeitshilfe_Schutzkonzepte_2024.pdf" target="_blank" rel="noreferrer">PDF · PJW Arbeitshilfe Schutzkonzepte 2024 ↗</a>
+            </div>
+          </details>
+
+          <footer class="step-footer">
+            <label class="done-toggle"><input type="checkbox" data-complete="5"> Schritt als bearbeitet markieren</label>
+            <button class="button primary" type="button" data-next="6">Weiter zu Hilfen</button>
+          </footer>
+        </article>
+
+        <article class="step" data-step="6" id="schritt-6" hidden>
+          <header class="step-header">
+            <div>
+              <p class="step-kicker">Schritt 6 · Handeln</p>
+              <h2>Wie verbinden wir Schutz, Beteiligung und konkrete Hilfe?</h2>
+            </div>
+            <span class="phase-badge">Unterstützung</span>
+          </header>
+
+          <div class="task-grid">
+            <section class="task-card">
+              <h3>Mit Mika</h3>
+              <ul class="prompt-list">
+                <li>Wie erklären wir transparent die nächsten Schritte?</li>
+                <li>Wobei kann Mika mitentscheiden?</li>
+                <li>Was braucht er heute, was mittelfristig?</li>
+              </ul>
+            </section>
+            <section class="task-card">
+              <h3>Im Helfersystem</h3>
+              <ul class="prompt-list">
+                <li>Welche internen Zuständigkeiten müssen aktiviert werden?</li>
+                <li>Welche externen Hilfen könnten passen?</li>
+                <li>Wie bleibt der Informationsaustausch auf das Notwendige begrenzt?</li>
+              </ul>
+            </section>
+          </div>
+
+          <section class="step-sources" aria-label="PDF-Quellen für Schritt 6">
+            <div class="step-sources-head">
+              <span>PDFs für diesen Schritt</span>
+              <a href="#pdf-quellen">Alle PDFs</a>
+            </div>
+            <div class="step-source-list">
+              <a class="step-source-pdf" href="https://www.der-paritaetische.de/fileadmin/user_upload/kinder-und-jugendschutz-ineinrichtungen_auflage-5_2022.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>Kinder- und Jugendschutz in Einrichtungen</strong><small>Beteiligung als Prävention · Board-Verweis S. 14</small></span>
+              </a>
+              <a class="step-source-pdf" href="https://www.breisgau-hochschwarzwald.de/site/Breisgau-Hochschwarzwald-ROOT/get/documents_E-928260536/breisgau-hochschwarzwald/Dateien/Dokumente/Dezernat2/260/Kinderschutz/OKJ/20230713_1.%20Auflage%20Broschuere%20Kinderschutz_OKJ.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>Gelingender Kinderschutz & Krisenintervention</strong><small>Ergänzend für Beteiligung, Rechte und Schutzlogik im Hilfeprozess.</small></span>
+              </a>
+            </div>
+          </section>
+
+          <label class="notes-label" for="notes-6">Unterstützungsplan</label>
+          <textarea class="notes" id="notes-6" data-note="6" rows="8" placeholder="Sofort · nächste Tage · längerfristig · Beteiligung · Kooperation"></textarea>
+
+          <details class="hint">
+            <summary>Alternative Sinnachse</summary>
+            <div>
+              <p>Wenn ihr nur auf „Meldung ja/nein“ schaut, schrumpft der Fall auf eine Verfahrensfrage. Wenn Schutz und Beteiligung gleichgewichtig betrachtet werden, wird zusätzlich sichtbar, wie Vertrauen erhalten, Hilfe zugänglich und Mikas Handlungsspielraum gestärkt werden kann.</p>
+            </div>
+          </details>
+
+          <footer class="step-footer">
+            <label class="done-toggle"><input type="checkbox" data-complete="6"> Schritt als bearbeitet markieren</label>
+            <button class="button primary" type="button" data-next="7">Weiter zum Konzept</button>
+          </footer>
+        </article>
+
+        <article class="step" data-step="7" id="schritt-7" hidden>
+          <header class="step-header">
+            <div>
+              <p class="step-kicker">Schritt 7 · Struktur verändern</p>
+              <h2>Was muss die Einrichtung aus dem Fall lernen?</h2>
+            </div>
+            <span class="phase-badge">Konzept & Prävention</span>
+          </header>
+
+          <div class="callout neutral">
+            Der Fall zeigt nicht nur eine mögliche Gefährdung bei Mika. Er zeigt auch eine Organisationsfrage: Ein Schutzablauf existiert, ist aber nicht allen Mitarbeitern präsent.
+          </div>
+
+          <div class="three-columns">
+            <section class="task-card">
+              <h3>Struktur</h3>
+              <p>Welche Zuständigkeiten, Abläufe und Dokumentationswege müssen eindeutig sein?</p>
+            </section>
+            <section class="task-card">
+              <h3>Alltag</h3>
+              <p>Wie kann Prävention in Beziehung, Beteiligung, Beratung und Gruppenalltag integriert werden?</p>
+            </section>
+            <section class="task-card">
+              <h3>Team</h3>
+              <p>Welche Fortbildung, Fallberatung und gemeinsame Haltung braucht das multiprofessionelle Team?</p>
+            </section>
+          </div>
+
+          <section class="step-sources" aria-label="PDF-Quellen für Schritt 7">
+            <div class="step-sources-head">
+              <span>PDFs für diesen Schritt</span>
+              <a href="#pdf-quellen">Alle PDFs</a>
+            </div>
+            <div class="step-source-list">
+              <a class="step-source-pdf" href="https://www.agjf.de/images/OKJA/AGJF-zweite-Heimat-web.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>AGJF: OKJA – Grundsätze und Leistungen</strong><small>Potenziale, Ziele, Angebote und Leistungen · Board-Auszug S. 4–5, 22–27, 31–32</small></span>
+              </a>
+              <a class="step-source-pdf" href="https://www.pjw-nrw.de/fileadmin/EigeneDateien/Download/05-service/PJW_Arbeitshilfe_Schutzkonzepte_2024.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>PJW: Arbeitshilfe Schutzkonzepte 2024</strong><small>Prävention und Leitlinien zur Konzeptentwicklung · Board-Auszug S. 18–19, 24, 37–38</small></span>
+              </a>
+              <a class="step-source-pdf" href="https://www.outlaw-ggmbh.de/fileadmin/standorte/uebergreifende_dateien/2022_09_15_grundkonzept_okja.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>Outlaw: Grundkonzept Offene Kinder- und Jugendarbeit</strong><small>Beispiel für eine konzeptionelle Ausgestaltung · Board-Auszug S. 5–12</small></span>
+              </a>
+            </div>
+          </section>
+
+          <label class="notes-label" for="notes-7">Drei konkrete Konzeptverbesserungen</label>
+          <textarea class="notes" id="notes-7" data-note="7" rows="8" placeholder="1. Maßnahme · Zweck · verantwortlich · überprüfbar an ..."></textarea>
+
+          <details class="hint">
+            <summary>Quellenbezug & PDFs</summary>
+            <div>
+              <p>Hier greifen die Board-Materialien zu Konzeptentwicklung, Grundsätzen und Leistungen der OKJA, Schutzkonzepten, präventionsrelevanten Angeboten und dem Beispiel-Grundkonzept ineinander.</p>
+              <div class="source-links">
+                <a class="inline-pdf" href="https://www.agjf.de/images/OKJA/AGJF-zweite-Heimat-web.pdf" target="_blank" rel="noreferrer">PDF · OKJA – Grundsätze und Leistungen (AGJF 2018) ↗</a>
+                <a class="inline-pdf" href="https://www.pjw-nrw.de/fileadmin/EigeneDateien/Download/05-service/PJW_Arbeitshilfe_Schutzkonzepte_2024.pdf" target="_blank" rel="noreferrer">PDF · Schutzkonzepte in der Kinder- und Jugendarbeit (2024) ↗</a>
+                <a class="inline-pdf" href="https://www.outlaw-ggmbh.de/fileadmin/standorte/uebergreifende_dateien/2022_09_15_grundkonzept_okja.pdf" target="_blank" rel="noreferrer">PDF · Grundkonzept OKJA – Outlaw (2022) ↗</a>
+              </div>
+            </div>
+          </details>
+
+          <footer class="step-footer">
+            <label class="done-toggle"><input type="checkbox" data-complete="7"> Schritt als bearbeitet markieren</label>
+            <button class="button primary" type="button" data-next="8">Weiter zum Prüfungstransfer</button>
+          </footer>
+        </article>
+
+        <article class="step" data-step="8" id="schritt-8" hidden>
+          <header class="step-header">
+            <div>
+              <p class="step-kicker">Schritt 8 · Reflektieren</p>
+              <h2>Aus der Fallarbeit eine prüfungsfähige vollständige Handlung bauen</h2>
+            </div>
+            <span class="phase-badge">Transfer</span>
+          </header>
+
+          <div class="exam-chain">
+            <div><strong>1. Situation erfassen</strong><span>Fakten, Beteiligte, Auftrag, offene Fragen</span></div>
+            <div><strong>2. Fachlich analysieren</strong><span>Beziehung, Bedürfnisse, Ressourcen, Risiken, Recht</span></div>
+            <div><strong>3. Ziele formulieren</strong><span>Schutz, Beteiligung, Stabilisierung, Hilfezugang</span></div>
+            <div><strong>4. Handeln planen</strong><span>Gespräch, Team, insoweit erfahrene Fachkraft, Hilfen, ggf. Jugendamt</span></div>
+            <div><strong>5. Durchführen begründen</strong><span>Warum ist welcher Schritt fachlich passend?</span></div>
+            <div><strong>6. Auswerten und weiterentwickeln</strong><span>Wirkung prüfen, Konzept und Prävention verbessern</span></div>
+          </div>
+
+          <section class="step-sources" aria-label="PDF-Quellen für Schritt 8">
+            <div class="step-sources-head">
+              <span>Kern-PDFs für den Gesamttransfer</span>
+              <a href="#pdf-quellen">Alle PDFs</a>
+            </div>
+            <div class="step-source-list">
+              <div class="step-source-note">
+                <span class="source-tag muted">Boardquelle</span>
+                <span><strong>PT2 Sommer 2027 – Basiskompetenzen</strong><small>Die Prüfungsdatei ist lokal vorhanden, aber nicht als belastbarer öffentlicher PDF-Link verfügbar.</small></span>
+              </div>
+              <a class="step-source-pdf" href="https://www.pjw-nrw.de/fileadmin/EigeneDateien/Download/05-service/PJW_Arbeitshilfe_Schutzkonzepte_2024.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>PJW: Arbeitshilfe Schutzkonzepte 2024</strong><small>Kernquelle für Gefährdung, Intervention, Prävention und Konzept.</small></span>
+              </a>
+              <a class="step-source-pdf" href="https://www.agjf.de/images/Service/Publikationen/OKJA-Kinderschutz/KVJS-Ratgeber-Schutzauftrag-2019.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>KVJS: Kinderschutz in der OKJA</strong><small>Kernquelle für Schutzauftrag und OKJA-spezifisches Vorgehen.</small></span>
+              </a>
+              <a class="step-source-pdf" href="https://www.agjf.de/images/OKJA/AGJF-zweite-Heimat-web.pdf" target="_blank" rel="noreferrer">
+                <span class="source-tag">PDF</span>
+                <span><strong>AGJF: OKJA – Grundsätze und Leistungen</strong><small>Kernquelle für den konzeptionellen und institutionellen Transfer.</small></span>
+              </a>
+            </div>
+          </section>
+
+          <section class="final-task">
+            <h3>Abschlussauftrag</h3>
+            <p>Formuliert in 8–12 Sätzen eine zusammenhängende Antwort auf diese Prüfungsfrage:</p>
+            <blockquote>
+              Wie kann die Fachkraft im Fall Mika beziehungsorientiert, kindeswohlbezogen und verfahrenssicher handeln und welche Konsequenzen ergeben sich für das Konzept der Einrichtung?
+            </blockquote>
+          </section>
+
+          <label class="notes-label" for="notes-8">Unsere Prüfungsantwort</label>
+          <textarea class="notes large" id="notes-8" data-note="8" rows="12" placeholder="Zusammenhängende Begründung vom Lagebild bis zur Reflexion"></textarea>
+
+          <details class="hint">
+            <summary>Selbstcheck vor dem Abschluss</summary>
+            <div>
+              <ul class="checklist">
+                <li>Ich trenne Beobachtung und Interpretation.</li>
+                <li>Ich begründe Beziehungsgestaltung fachlich.</li>
+                <li>Ich benenne Unsicherheiten statt sie zu verdecken.</li>
+                <li>Ich ordne das § 8a-Verfahren korrekt ein.</li>
+                <li>Ich beteilige den Jugendlichen, soweit Schutz dadurch nicht gefährdet wird.</li>
+                <li>Ich denke Hilfen und Schutz zusammen.</li>
+                <li>Ich leite mindestens eine Konsequenz für das Einrichtungskonzept ab.</li>
+                <li>Ich reflektiere Wirkung und weiteres Vorgehen.</li>
+              </ul>
+            </div>
+          </details>
+
+          <footer class="step-footer final">
+            <label class="done-toggle"><input type="checkbox" data-complete="8"> Lernstrecke abgeschlossen</label>
+            <button class="button secondary" id="summary-button" type="button">Arbeitsstand zusammenfassen</button>
+          </footer>
+        </article>
+
+        <section class="completion-panel" id="completion-panel" hidden aria-live="polite">
+          <p class="eyebrow">Arbeitsstand</p>
+          <h2>Eure Fallakte ist bereit für den Klassenabgleich.</h2>
+          <p id="completion-text"></p>
+          <div class="completion-actions">
+            <button class="button primary" type="button" id="copy-summary">Zusammenfassung kopieren</button>
+            <button class="button secondary" type="button" id="close-summary">Zur Lernstrecke zurück</button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="pdf-library" id="pdf-quellen">
+      <div class="pdf-library-head">
+        <div>
+          <p class="eyebrow">Quellen direkt öffnen</p>
+          <h2>Öffentlich verfügbare PDFs</h2>
+          <p>
+            Verlinkt werden die öffentlich erreichbaren Original- oder Gesamtfassungen bei den jeweiligen
+            Herausgebern. Die lokal aus dem Prüfungsboard gesicherten Auszüge werden nicht neu veröffentlicht.
+          </p>
+        </div>
+        <div class="source-actions">
+          <a class="button secondary" href="https://github.com/alexdermohr/kindeswohlgefaehrdung/blob/gh-pages/quellen/pdf-quellen.md" target="_blank" rel="noreferrer">PDF-Status aller Board-Quellen</a>
+          <a class="button secondary" href="https://github.com/alexdermohr/kindeswohlgefaehrdung/blob/main/RECHTE.md" target="_blank" rel="noreferrer">Rechtehinweis</a>
+        </div>
+      </div>
+
+      <h3 class="pdf-group-title">PT1 · Informatik, Medien & digitale Bildung</h3>
+      <div class="pdf-grid">
+        <article class="pdf-card">
+          <span class="pdf-status">öffentliches PDF</span>
+          <h4>Frühe informatische Bildung</h4>
+          <p>Bergner, Hubwieser & Köster · Stiftung „Haus der kleinen Forscher“</p>
+          <a class="pdf-button" href="https://www.pedocs.de/volltexte/2019/17813/pdf/Bergner_et_al2019_Fruehe_informatische_Bildung.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+        <article class="pdf-card">
+          <span class="pdf-status">offizielles PDF</span>
+          <h4>Perspektive Kind – Hamburger Bildungsleitlinien</h4>
+          <p>Freie und Hansestadt Hamburg · 2024</p>
+          <a class="pdf-button" href="https://dokumente.hamburg.de/resource/blob/35920/4d41e681db1c556340d235f366949ba0/bildungsleitlinien-data.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+        <article class="pdf-card">
+          <span class="pdf-status">offizielles PDF</span>
+          <h4>Förderung digitaler Kompetenzen</h4>
+          <p>Helen Knauf · WiFF Expertise 57 · 2024</p>
+          <a class="pdf-button" href="https://www.weiterbildungsinitiative.de/fileadmin/Redaktion/Publikationen/WiFF_Expertise57_Knauf_Web.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+        <article class="pdf-card">
+          <span class="pdf-status">offizielles PDF</span>
+          <h4>miniKIM-Studie 2023</h4>
+          <p>Kleinkinder und Medien · mpfs/LFK</p>
+          <a class="pdf-button" href="https://www.lfk.de/fileadmin/PDFs/Publikationen/Studien/miniKIM-Studie/mini-kim-studie-2023.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+        <article class="pdf-card">
+          <span class="pdf-status">offizielles PDF</span>
+          <h4>Bee-Bot – Grundlagen & Methoden</h4>
+          <p>Wiener Bildungsserver · 2019</p>
+          <a class="pdf-button" href="https://lehrerweb.wien/fileadmin/lehrerweb-redakteure/Diverses/Downloads/Booklets/BeeBotBookletDownload.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+      </div>
+
+      <h3 class="pdf-group-title">PT2 · Kindeswohl, OKJA, Schutz & Prävention</h3>
+      <div class="pdf-grid">
+        <article class="pdf-card">
+          <span class="pdf-status">offizielles PDF</span>
+          <h4>OKJA – Grundsätze und Leistungen</h4>
+          <p>AGJF Baden-Württemberg · Ausgabe 2018</p>
+          <a class="pdf-button" href="https://www.agjf.de/images/OKJA/AGJF-zweite-Heimat-web.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+        <article class="pdf-card">
+          <span class="pdf-status">offizielles PDF</span>
+          <h4>Kinderschutz in der Offenen Kinder- und Jugendarbeit</h4>
+          <p>KVJS / AGJF · 2019</p>
+          <a class="pdf-button" href="https://www.agjf.de/images/Service/Publikationen/OKJA-Kinderschutz/KVJS-Ratgeber-Schutzauftrag-2019.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+        <article class="pdf-card">
+          <span class="pdf-status">offizielles PDF</span>
+          <h4>Arbeitshilfe Schutzkonzepte</h4>
+          <p>Paritätisches Jugendwerk NRW · 2024 · Grundlage mehrerer Board-Auszüge</p>
+          <a class="pdf-button" href="https://www.pjw-nrw.de/fileadmin/EigeneDateien/Download/05-service/PJW_Arbeitshilfe_Schutzkonzepte_2024.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+        <article class="pdf-card">
+          <span class="pdf-status">offizielles PDF</span>
+          <h4>Grundkonzept Offene Kinder- und Jugendarbeit</h4>
+          <p>Outlaw gGmbH · 2022</p>
+          <a class="pdf-button" href="https://www.outlaw-ggmbh.de/fileadmin/standorte/uebergreifende_dateien/2022_09_15_grundkonzept_okja.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+        <article class="pdf-card">
+          <span class="pdf-status">offizielles PDF</span>
+          <h4>Gelingender Kinderschutz & Krisenintervention in der OKJA</h4>
+          <p>Öffentliche Gesamtbroschüre · Landratsamt Breisgau-Hochschwarzwald · 2023</p>
+          <a class="pdf-button" href="https://www.breisgau-hochschwarzwald.de/site/Breisgau-Hochschwarzwald-ROOT/get/documents_E-928260536/breisgau-hochschwarzwald/Dateien/Dokumente/Dezernat2/260/Kinderschutz/OKJ/20230713_1.%20Auflage%20Broschuere%20Kinderschutz_OKJ.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+        <article class="pdf-card">
+          <span class="pdf-status">offizielles PDF</span>
+          <h4>Kinder- und Jugendschutz in Einrichtungen</h4>
+          <p>Der Paritätische Gesamtverband · 5. Auflage 2022</p>
+          <a class="pdf-button" href="https://www.der-paritaetische.de/fileadmin/user_upload/kinder-und-jugendschutz-ineinrichtungen_auflage-5_2022.pdf" target="_blank" rel="noreferrer">PDF öffnen ↗</a>
+        </article>
+      </div>
+
+      <div class="pdf-unavailable">
+        <div>
+          <span class="pdf-status unavailable">kein öffentlicher PDF-Link</span>
+          <h3>Board-Unterlagen und Verlagstexte</h3>
+          <p>
+            Für die Prüfungs-Basiskompetenzen, die Operatorenliste sowie die exakten Texte von
+            Borg-Laufs, Simon, Schröder, Bruseberg/Burkhardt/Holland/Rosche und Sturzenhecker/Deinet
+            wurde keine belastbare frei zugängliche PDF-Fassung des jeweiligen Originals gefunden.
+            Bei „Informatik entdecken“ leitet der historische Direkt-PDF-Link der Stiftung inzwischen
+            auf eine Materialseite um; beim LVR-Titel „Wissen, was wirkt“ lieferte der bisherige
+            Direkt-PDF-Link beim Live-Check HTTP 404. Deshalb werden beide nicht als funktionierende
+            PDF-Links ausgegeben.
+          </p>
+        </div>
+        <a class="button secondary" href="https://github.com/alexdermohr/kindeswohlgefaehrdung/blob/gh-pages/quellen/pdf-quellen.md" target="_blank" rel="noreferrer">Status im Detail</a>
+      </div>
+
+      <div class="source-actions pdf-footer-actions">
+        <a class="button secondary" href="https://github.com/alexdermohr/kindeswohlgefaehrdung/blob/main/docs/pruefungsstruktur.md" target="_blank" rel="noreferrer">Prüfungsstruktur</a>
+        <a class="button secondary" href="https://github.com/alexdermohr/kindeswohlgefaehrdung/blob/main/quellen/quellenverzeichnis.md" target="_blank" rel="noreferrer">Quellenverzeichnis</a>
+        <a class="button secondary" href="https://github.com/alexdermohr/kindeswohlgefaehrdung/blob/main/RECHTE.md" target="_blank" rel="noreferrer">Rechtehinweis</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Fallwerkstatt Kindeswohlgefährdung · statische Lernseite · keine realen Falldaten eingeben</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
