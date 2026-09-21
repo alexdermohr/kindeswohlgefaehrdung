@@ -8,15 +8,15 @@ Dieses Repository ist öffentlich. Die zugrunde liegenden PDF-Dateien stammen au
 - bibliografische Fakten;
 - vom Board angegebene prüfungsrelevante Seitenbereiche;
 - technische Prüfsummen, Dateigrößen und Transkriptionsmetadaten;
-- selbst erstellte Skripte.
+- selbst erstellte Skripte;
+- der vom Nutzer zur Veröffentlichung bestimmte Link auf das Edupool-Board als Zugangs- und Provenienzquelle.
 
 ## Bewusst nicht öffentlich enthalten
 
 - heruntergeladene PDF-Dateien;
-- vollständige oder nahezu vollständige Transkriptionen fremder Texte;
-- der nicht öffentliche Edupool-Freigabelink bzw. dessen Freigabe-Token.
+- vollständige oder nahezu vollständige Transkriptionen fremder Texte.
 
-Diese Dateien liegen lokal unter `source-private/` und werden von Git ignoriert.
+Diese Dateien liegen lokal unter `source-private/` und werden von Git ignoriert. Die Veröffentlichung des Board-Links ist ausdrücklich keine Aussage über Nutzungs-, Vervielfältigungs- oder Weiterveröffentlichungsrechte an den dort enthaltenen oder verlinkten Materialien.
 
 ## Nachveröffentlichung
 
