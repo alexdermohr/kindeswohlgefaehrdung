@@ -18,7 +18,9 @@ Technisch besteht die Seite nur aus `index.html`, `styles.css` und `app.js`. Es 
 
 ## Stand
 
-Erfasst am 21.09.2026 aus dem bereitgestellten Edupool-Board:
+Erfasst am 21.09.2026 aus dem bereitgestellten Edupool-Board.
+
+**Oberquelle:** [Edupool-Board „Prüfung 2027 Sommer FS“](https://boards.edupool.cloud/s/Id-aVXBZEkn6RYOYY1aaEximB7QgB7SL0YOhxrezpdM) — zentrale Zugangs- und Provenienzquelle; sämtliche nachfolgend erschlossenen Prüfungsunterlagen und Fachquellen sind dort enthalten oder verlinkt.
 
 - 35 von 35 Board-Karten strukturell erfasst;
 - 24 eindeutige PDF-Dateien lokal gesichert (39.168.539 Byte);
@@ -28,7 +30,7 @@ Erfasst am 21.09.2026 aus dem bereitgestellten Edupool-Board:
 
 ## Öffentliche Grenze
 
-Das Board enthält Auszüge verschiedener Urheber und Herausgeber. Ein Freigabelink ist keine Erlaubnis zur öffentlichen Weiterverbreitung. Öffentlich versioniert werden daher nur eigene Strukturierungen, bibliografische Angaben, Seitenbereiche, technische Prüfsummen, die Unterrichtswebseite und die Erfassungsskripte. PDFs, Volltranskripte und der nicht öffentliche Board-Freigabelink bleiben lokal.
+Das Board enthält Auszüge verschiedener Urheber und Herausgeber. Der vom Nutzer zur Veröffentlichung bestimmte Board-Link wird als Oberquelle öffentlich genannt. Das begründet keine Erlaubnis zur Weiterveröffentlichung der dort enthaltenen oder verlinkten Fremdmaterialien. Öffentlich versioniert werden daher ansonsten nur eigene Strukturierungen, bibliografische Angaben, Seitenbereiche, technische Prüfsummen, die Unterrichtswebseite und die Erfassungsskripte. PDFs und Volltranskripte bleiben lokal.
 
 Siehe [RECHTE.md](RECHTE.md).
 

@@ -813,6 +813,28 @@ a { color: var(--navy); }
   color: var(--muted);
 }
 
+.source-root {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  margin: 0 0 28px;
+  padding: 22px;
+  border: 1px solid var(--teal);
+  border-radius: var(--radius-sm);
+  background: var(--teal-soft);
+}
+
+.source-root h3 {
+  margin: 10px 0 6px;
+}
+
+.source-root p {
+  max-width: 850px;
+  margin: 0;
+  color: var(--muted);
+}
+
 .pdf-group-title {
   margin: 34px 0 14px;
   font-size: 1.15rem;
@@ -929,6 +951,7 @@ a { color: var(--navy); }
   .three-columns { grid-template-columns: 1fr; }
   .pdf-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .pdf-library-head,
+  .source-root,
   .pdf-unavailable { grid-template-columns: 1fr; }
 }
 
