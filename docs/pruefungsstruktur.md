@@ -1,6 +1,6 @@
 # Prüfungsstruktur und vollständiges Board-Inventar
 
-Quelle ist das am 21.09.2026 vollständig ausgelesene Edupool-Board **„Prüfung 2027 Sommer FS“**. Es weist 35 Karten aus. Die Inhalte sind hier strukturiert paraphrasiert; Literaturangaben und Seitenbereiche werden sachlich übernommen.
+Oberquelle ist das am 21.09.2026 vollständig ausgelesene [Edupool-Board **„Prüfung 2027 Sommer FS“**](https://boards.edupool.cloud/s/Id-aVXBZEkn6RYOYY1aaEximB7QgB7SL0YOhxrezpdM). Es weist 35 Karten aus und enthält bzw. verlinkt die nachfolgend erschlossenen Prüfungsunterlagen und Fachquellen. Die Inhalte sind hier strukturiert paraphrasiert; Literaturangaben und Seitenbereiche werden sachlich übernommen.
 
 ## Rahmendaten
 

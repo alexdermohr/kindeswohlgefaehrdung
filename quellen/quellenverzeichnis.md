@@ -2,6 +2,11 @@
 
 Die Liste bildet die auf dem Board genannten Materialien ab. Die Originaldateien werden aus Rechte- und Freigabegründen nicht öffentlich eingecheckt.
 
+## Oberquelle
+
+- **Edupool-Board „Prüfung 2027 Sommer FS“** — [Board öffnen](https://boards.edupool.cloud/s/Id-aVXBZEkn6RYOYY1aaEximB7QgB7SL0YOhxrezpdM)
+- Sämtliche nachfolgend aufgeführten Prüfungsunterlagen und Fachquellen sind dort enthalten oder verlinkt. Das Board ist damit die zentrale **Zugangs- und Provenienzquelle** dieses Repositories; die einzelnen Veröffentlichungen bleiben die fachlichen Originalquellen.
+
 ## Prüfungsunterlagen
 
 - **Basiskompetenzen Prüfung Sommer 2027** — PT1-Kompetenzbeschreibung.

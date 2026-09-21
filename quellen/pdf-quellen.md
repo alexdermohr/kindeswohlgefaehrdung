@@ -6,10 +6,15 @@ Diese Liste verknüpft die auf dem Prüfungsboard verwendeten Dateien mit **öff
 
 Wichtig:
 
-- Die lokal aus Edupool gesicherten Dateien und der Edupool-Freigabelink werden hier nicht veröffentlicht.
+- Die lokal aus Edupool gesicherten Dateien werden hier nicht neu veröffentlicht. Der Edupool-Freigabelink wird als Oberquelle ausgewiesen; daraus folgen keine Weiterveröffentlichungsrechte für die dort enthaltenen Materialien.
 - Ein öffentlicher PDF-Link bedeutet nicht automatisch, dass eine Datei unter einer freien Lizenz steht. Hier wird nur auf die bestehende Quelle verlinkt.
 - Wenn keine exakte öffentliche PDF-Fassung belastbar gefunden wurde, bleibt der Status ausdrücklich offen; es wird kein ähnlicher Text als Ersatz ausgegeben.
 - Bei der Kinderschutz-Broschüre zur Begriffsbestimmung stimmt der lokal extrahierte Text mit der unten verlinkten öffentlichen Broschüre des Landratsamts Breisgau-Hochschwarzwald überein; die bibliografische Angabe auf dem Board weicht davon ab.
+
+## Oberquelle
+
+- **Edupool-Board „Prüfung 2027 Sommer FS“** — [Board öffnen](https://boards.edupool.cloud/s/Id-aVXBZEkn6RYOYY1aaEximB7QgB7SL0YOhxrezpdM)
+- Alle unten aufgeführten Board-Dateien und Fachquellen sind über dieses Board enthalten oder verlinkt. Die Direktlinks unten dienen ergänzend dazu, frei erreichbare Original- bzw. Gesamtfassungen bei Herausgebern zu öffnen.
 
 ## PT1 – Prüfungsunterlagen und Medien/Informatik
 
