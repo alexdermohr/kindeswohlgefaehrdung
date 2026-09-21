@@ -427,6 +427,112 @@ a { color: var(--navy); }
   font-size: 0.92rem;
 }
 
+.step-sources {
+  margin: 24px 0;
+  padding: 18px;
+  border: 1px solid #bfd8d4;
+  border-radius: var(--radius-sm);
+  background: #f5fbfa;
+}
+
+.step-sources-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.step-sources-head > span {
+  color: var(--teal);
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.step-sources-head > a {
+  color: var(--navy);
+  font-size: 0.82rem;
+  font-weight: 760;
+}
+
+.step-source-list {
+  display: grid;
+  gap: 9px;
+}
+
+.step-source-pdf,
+.step-source-note {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 11px;
+  align-items: start;
+  padding: 12px;
+  border-radius: 10px;
+  background: var(--paper);
+  border: 1px solid #d7e5e2;
+}
+
+.step-source-pdf {
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 140ms ease, transform 140ms ease, background 140ms ease;
+}
+
+.step-source-pdf:hover {
+  transform: translateY(-1px);
+  border-color: var(--teal);
+  background: white;
+}
+
+.step-source-pdf strong,
+.step-source-note strong {
+  display: block;
+  line-height: 1.28;
+}
+
+.step-source-pdf small,
+.step-source-note small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.step-source-note {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  border-color: #ded9cf;
+  background: #fbfaf7;
+}
+
+.step-source-note > a {
+  align-self: center;
+  white-space: nowrap;
+  color: var(--navy);
+  font-size: 0.8rem;
+  font-weight: 760;
+}
+
+.source-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  padding: 4px 7px;
+  border-radius: 999px;
+  background: var(--teal);
+  color: white;
+  font-size: 0.66rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.source-tag.muted {
+  background: #777e83;
+}
+
 .notes-label {
   display: block;
   font-weight: 800;
@@ -863,6 +969,8 @@ a { color: var(--navy); }
   .pdf-library { padding: 34px 16px 0; }
   .pdf-grid { grid-template-columns: 1fr; }
   .pdf-card { min-height: 0; }
+  .step-source-note { grid-template-columns: auto minmax(0, 1fr); }
+  .step-source-note > a { grid-column: 2; }
 }
 
 @media print {
